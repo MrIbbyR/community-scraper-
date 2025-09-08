@@ -1,0 +1,21 @@
+# venvs
+.venv/
+venv/
+env/
+
+# py caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# build/artifacts
+*.egg-info/
+dist/
+build/
+
+# editors
+.vscode/
+.idea/
+
+# playwright caches (if any)
+.playwright/
