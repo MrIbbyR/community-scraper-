@@ -1,32 +1,10 @@
-ATS Prospects Email Scraper
+Community outreach optimisation 
 
-Automates extraction of prospect emails from a web-based ATS so your team can run flexible, compliant outreach from Outlook (or any email tool).
+Streamlines outreach to community prospects which we use internally for AI/ML events.
 
 Why this exists
 
-ATS “communities”/folders already group prospects, but native outreach tooling is limited. This script saves time by pulling contact emails into a CSV so you can run controlled, personalised campaigns externally.
-
-What it does
-
-Attaches to your already-open Chromium browser (DevTools/CDP) where you’re logged into the ATS.
-
-Detects the open Prospects / People list tab (no hard-coded URLs or tenant IDs).
-
-Scrolls to load all profiles and de-duplicates links.
-
-Opens each profile and extracts the email (mailto → personal info → full-page fallback).
-
-Writes a clean prospect_emails.csv.
-
-Output
-
-prospect_emails.csv with a single column:
-
-Email
-jane.doe@example.com
-
-john.smith@company.co.uk
-
+Native outreach tooling is limited. This script saves time assisting us to send personalised outreach campaigns.
 …
 
 Tip: Use the CSV with Outlook/Word Mail Merge, your sequencer, or your CRM—always respecting opt-outs and your data policy.
@@ -96,4 +74,5 @@ Ensure a lawful basis for processing personal data (e.g., legitimate interests) 
 Honour opt-outs/suppression lists and your company privacy policy.
 
 Store the CSV securely and limit access to authorised team members only.
+
 
